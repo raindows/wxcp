@@ -1,0 +1,37 @@
+@use './variables' as *;
+
+.el-button {
+  border-radius: $border-radius-button;
+}
+
+.el-table {
+  --el-table-header-bg-color: #{$color-bg-hover};
+  --el-table-row-hover-bg-color: #{$color-bg-hover};
+  font-size: $font-size-body;
+  --el-table-border-color: #{$color-border};
+}
+
+.el-input__wrapper {
+  border-radius: $border-radius-input;
+}
+
+.el-select .el-input__wrapper {
+  border-radius: $border-radius-input;
+}
+
+.el-dialog {
+  border-radius: $border-radius-card;
+}
+
+.el-message {
+  font-size: $font-size-body;
+}
+
+.el-tag {
+  border-radius: $border-radius-tag;
+}
+
+.el-card {
+  border-radius: $border-radius-card;
+  border-color: $color-border;
+}
